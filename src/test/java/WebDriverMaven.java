@@ -16,7 +16,7 @@ public class WebDriverMaven {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);	
 		
 		driver.findElement(By.id("identifierId")).sendKeys("jimmy06c206@gmail.com");
-		//driver.findElement(By.id("nextiId")).click();
+		driver.findElement(By.id("nextiId")).click();
 		
 		
 		driver.quit();
